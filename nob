@@ -1,0 +1,3 @@
+#src : src/main.c
+#dir : ./builds/main
+run : gcc src -o dir && ./builds/main
