@@ -4,5 +4,4 @@
 
 build : gcc src common -o dir && ./builds/main
 
-
 example-terminalapp : gcc examples/terminal-app/terminalapp.c -o terminalapp && ./terminalapp
