@@ -2,7 +2,7 @@
 
 int main(void) {
 
-    printf("Hello Bitch\n");
+    printf("This is an example\n");
     return 0;
 
 }
