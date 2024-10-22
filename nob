@@ -1,7 +1,5 @@
-#src : src/main.c
-#common : src/common/common.c
 #dir : ./builds/main
+#src : src/filesystem/filesystem.c src/utilities/utilities.c
 
-build : gcc src common -o dir && ./builds/main
-
+build : gcc -o dir && ./builds/main
 example-terminalapp : gcc examples/terminal-app/terminalapp.c -o terminalapp && ./terminalapp
